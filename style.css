@@ -1,0 +1,426 @@
+body {
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+b {
+    text-transform: lowercase;
+}
+
+
+/* styling the navbar */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 90px;
+    background-color: #cef5f6;
+    background-image: url(./pexels-anete-lusina-6331082.jpg);
+}
+nav > span {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Tektur', cursive;
+}
+nav > span > span {
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+nav > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 5px;
+}
+nav > div > div {
+    width: 20px;
+    border-bottom: medium solid black;
+}
+nav > div > a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* styling the hero */
+main {
+    border-bottom: medium solid black;
+    background-color: #cef5f6;
+    padding-top: 120px;
+    background-image: url(./pexels-anete-lusina-6331082.jpg);
+}
+main > * {
+    margin: auto;
+}
+main > h1 {
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+}
+main > p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+main > button {
+    margin: 30px auto 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    display: block;
+    color: white;
+    background-color: #f28713;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+main > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc( 100% - 180px );
+    transform: translateY(100px);
+}
+main > div > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 20%;
+    padding: 30px;
+    background-color: gray;
+    align-items: flex-start;
+    background-color: #56b5e5;
+    color: white;
+}
+main > div > div > span:nth-child(1) {
+    font-size: 50px;
+}
+main > div > div > span:nth-child(2) {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+
+
+/* styling the why-do section */
+section#why-do {
+    padding: 140px 90px 100px;
+    background-color: #f1fafa;
+}
+section#why-do > h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+    margin-bottom: 70px;
+}
+section#why-do > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+section#why-do > div > div {
+    width: calc( 100% / 5 );
+}
+section#why-do > div > div > h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+section#why-do > div > div > p {
+    font-size: 14px;
+}
+section#why-do > div > div > span {
+    font-size: 35px;
+}
+
+
+/* styling the who-we-are */
+section#who-we-are {
+    padding: 90px;
+    background-color: #1a36b3;
+    color: white;
+}
+section#who-we-are > h2 {
+    font-size: 30px;
+    width: 30%;
+    font-family: 'Tektur', cursive;
+}
+section#who-we-are > p {
+    width: 50%;
+    margin-bottom: 90px;
+    font-size: 15px;
+}
+section#who-we-are > div#hr-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+section#who-we-are > div#hr-list > div {
+    background-color: white;
+    height: 2px;
+}
+section#who-we-are > div#hr-list > div.circle {
+    width: 2%;
+    height: 25px;
+}
+section#who-we-are > div#hr-list > div.line {
+    width: 31%;
+}
+section#who-we-are > div#hr-list > div#start-line {
+    width: 13%;
+}
+section#who-we-are > div#hr-list > div#end-line {
+    width: 13%;
+}
+section#who-we-are > div#hr-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+section#who-we-are > div#hr-items > div {
+    width: 13%;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+}
+section#who-we-are > div#hr-items > div:nth-child(1) {
+    margin-left: 14%;
+}
+section#who-we-are > div#hr-items > div:nth-child(2) {
+    margin-left: 22%;
+}
+section#who-we-are > div#hr-items > div:nth-child(3) {
+    margin-left: 22%;
+}
+section#who-we-are > div#hr-items > div > span {
+    font-size: 40px;
+}
+section#who-we-are > div#hr-items > div > h3 {
+    font-size: 25px;
+    margin: 0px;
+}
+section#who-we-are > div#hr-items > div > p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+
+/* styling the process section */
+section#process {
+    padding: 40px 90px;
+}
+section#process > h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+
+/* styling the html process section */
+section#html {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section#html > div {
+    width: 45%;
+}
+section#html > div > h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+section#html > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section#html > div:nth-child(2) > div {
+    width: 45%;
+    padding: 40px;
+    background-color: #cef5f6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+section#html > div:nth-child(2) > div > span:nth-child(1) {
+    font-size: 50px;
+}
+section#html > div:nth-child(2) > div > span:nth-child(2) {
+    font-size: 16px;
+}
+
+/* styling the css process section */
+section#css {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 90px 0px;
+}
+section#css > div:nth-child(1) {
+    width: 25%;
+}
+section#css > div#overflow-div {
+    width: 65%;
+    overflow-x: auto;
+}
+section#css > div > h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+section#css > div#overflow-div > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+section#css > div#overflow-div > div > div {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9cebed;
+    gap: 20px;
+    padding: 30px;
+}
+section#css > div#overflow-div > div > div > span:nth-child(1) {
+    text-decoration: line-through;
+}
+
+
+/* styling the wai-aria section */
+section#wai-aria {
+    margin-bottom: 90px;
+}
+section#wai-aria > h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+section#wai-aria > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+section#wai-aria > div > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 25%;
+}
+section#wai-aria > div > div > h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+section#wai-aria > div > div > span {
+    font-size: 40px;
+}
+
+/* styling the multimedia */
+section#multimedia > h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+section#multimedia > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+section#multimedia > div > div {
+    width: 25%;
+    background-color: lightgray;
+    padding: 30px;
+    height: 70vh;
+}
+section#multimedia > div > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #cef5f6;
+}
+section#multimedia > div > div:nth-child(even) {
+    flex-direction: column;
+}
+section#multimedia > div > div:nth-child(odd) {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+section#multimedia > div > div > div > h4 {
+    font-size: 20px;
+    margin: 0px;
+    text-transform: capitalize;
+}
+section#multimedia > div > div > div > p {
+    font-size: 14px;
+}
+section#multimedia > div > div > img {
+    width: 80%;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+
+
+/* styling the footer */
+footer {
+    background-color: #1a36b3;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+footer > *:nth-child(1) {
+    width: 30%;
+}
+footer > *:nth-child(2) {
+    width: 48%;
+}
+footer > div > * {
+    color: white;
+}
+footer > div > h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Tektur', cursive;
+}
+footer > div > p {
+    font-size: 14px;
+}
+footer > img {
+    min-height: 600px;
+    object-fit: cover;
+}
