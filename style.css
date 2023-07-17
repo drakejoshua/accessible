@@ -308,12 +308,30 @@ section#css > div#overflow-div > div > div {
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    background-color: #9cebed;
     gap: 20px;
     padding: 30px;
+    width: 40%;
 }
-section#css > div#overflow-div > div > div > span:nth-child(1) {
-    text-decoration: line-through;
+/* styling for the good and bad css classes in the css subsection */
+.bad-css-ctn { 
+    background-color: black;
+}
+.bad-css-ctn > .bad-css-component {
+    color: rgb(126, 124, 124);
+}
+.bad-css-ctn > .good-css-component {
+    color: rgb(255, 255, 255);
+}
+.bad-css-ctn > .comment {
+    color: white;
+    text-decoration: underline;
+}
+.good-css-ctn { 
+    background-color: rgb(107, 238, 107);
+}
+.good-css-ctn > .comment {
+    color: black;
+    text-decoration: underline;
 }
 
 
