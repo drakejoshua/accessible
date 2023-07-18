@@ -10,9 +10,11 @@
 </head>
 <body>
     <nav>
-        <span>
-            Accessible
-            <span>
+        <span aria-label="Accessible by joshua">
+            <span aria-hidden="true">
+                Accessible
+            </span>
+            <span aria-hidden="true">
                 by joshua
             </span>
         </span>
@@ -56,17 +58,17 @@
             we specialize in developing innovative solutions that break down barriers and provide equal access to information and technology
         </p>
 
-        <button>
-            read more 
+        <button tabindex="0">
+            read more about accessible
 
-            <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined" aria-hidden="true">
                 arrow_downward
             </span>
         </button>
 
-        <div>
+        <div aria-label="why use accessibility">
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" aria-hidden="true">
                     accessibility_new
                 </span>
 
@@ -76,7 +78,7 @@
             </div>
 
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" aria-hidden="true">
                     accessible
                 </span>
 
@@ -86,7 +88,7 @@
             </div>
 
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" aria-hidden="true">
                     hearing_disabled
                 </span>
 
@@ -96,7 +98,7 @@
             </div>
 
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" aria-hidden="true">
                     blind
                 </span>
 
@@ -107,14 +109,14 @@
         </div>
     </main>
 
-    <section id="why-do">
+    <section id="why-do" role="contentinfo">
         <h2>
             Why is it good to be accessible
         </h2>
 
         <div>
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined" aria-hidden="true">
                     add_task
                 </span>
     
@@ -130,7 +132,7 @@
             </div>
             
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined"  aria-hidden="true">
                     dataset
                 </span>
     
@@ -146,7 +148,7 @@
             </div>
             
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined"  aria-hidden="true">
                     token
                 </span>
     
@@ -162,7 +164,7 @@
             </div>
             
             <div>
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined"  aria-hidden="true">
                     view_timeline
                 </span>
     
@@ -179,7 +181,7 @@
         </div>
     </section>
 
-    <section id="who-we-are">
+    <section id="who-we-are" role="contentinfo" aria-label="what do we do at accessible">
         <h2>
             Breaking Barriers, Enabling Access: Building a Digital World for All
         </h2>
@@ -193,7 +195,7 @@
         </p>
 
         <!-- the connected square with lines -->
-        <div id="hr-list">
+        <div id="hr-list" aria-hidden="true">
             <div id="start-line">
             </div>
 
@@ -219,8 +221,8 @@
             </div>
         </div>
 
-        <div id="hr-items">
-            <div>
+        <div id="hr-items" aria-label="we have over 200 fake users served, 40 fake accessible web projects done and over 10 fake awards">
+            <div aria-hidden="true">
                 <span class="material-symbols-outlined">
                     group
                 </span>
@@ -232,7 +234,7 @@
                 </p>
             </div>
             
-            <div>
+            <div aria-hidden="true">
                 <span class="material-symbols-outlined">
                     diversity_2
                 </span>
@@ -244,7 +246,7 @@
                 </p>
             </div>
             
-            <div>
+            <div aria-hidden="true">
                 <span class="material-symbols-outlined">
                     award_star
                 </span>
@@ -258,7 +260,7 @@
         </div>
     </section>
 
-    <section id="process">
+    <section id="process" role="contentinfo">
         <h2>
             processes to do accessiblity
         </h2>
@@ -267,7 +269,7 @@
             <div>
                 <h3>
                     html
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" aria-hidden="true">
                         code
                     </span>
                 </h3>
@@ -279,7 +281,7 @@
 
             <div>
                 <div>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" aria-hidden="true">
                         html
                     </span>
 
@@ -291,7 +293,7 @@
                 </div>
 
                 <div>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" aria-hidden="true">
                         code
                     </span>
 
@@ -302,7 +304,7 @@
                 </div>
 
                 <div>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined"  aria-hidden="true">
                         integration_instructions
                     </span>
 
@@ -314,7 +316,7 @@
                 </div>
 
                 <div>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined"  aria-hidden="true">
                         developer_mode
                     </span>
 
@@ -331,7 +333,7 @@
             <div>
                 <h3>
                     css
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" aria-hidden="true">
                         data_object
                     </span>
                 </h3>
@@ -506,9 +508,9 @@
             </h2>
 
             <p>
-                in this sample website we didn't discuss thing like mobile accessiblity or jaJvascript in accessibility
+                in this sample website we didn't discuss thing like mobile accessiblity or javascript in accessibility;
                 only key accessibility issues. hope you learn't something here and for the record, this page is built
-                with the biggest accessibility in mind
+                with the biggest accessibility in mind.
             </p>
         </div>
 

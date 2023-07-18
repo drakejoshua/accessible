@@ -25,12 +25,12 @@ nav {
     background-color: #cef5f6;
     background-image: url(./pexels-anete-lusina-6331082.jpg);
 }
-nav > span {
+nav > span > span:nth-child(1) {
     font-size: 25px;
     font-weight: bold;
     font-family: 'Tektur', cursive;
 }
-nav > span > span {
+nav > span > span:nth-child(2) {
     font-weight: normal;
     font-size: 15px;
     text-transform: capitalize;
@@ -85,12 +85,15 @@ main > button {
     border: none;
     display: block;
     color: white;
-    background-color: #f28713;
+    background-color: #b35c00;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     gap: 10px;
+}
+main > button:focus {
+    outline: medium solid black;
 }
 main > div {
     display: flex;
@@ -109,7 +112,7 @@ main > div > div {
     padding: 30px;
     background-color: gray;
     align-items: flex-start;
-    background-color: #56b5e5;
+    background-color: #1a36b3;
     color: white;
 }
 main > div > div > span:nth-child(1) {
