@@ -1,2 +1,2 @@
 # accessible
-A sample web project that i used to practice what i learn't from web accessiblity mdn plus html and css
+A sample web project that is used to practice what was learn't from "web accessiblity mdn" plus html and css
